@@ -37,4 +37,12 @@ $router->routes = array(
 	)
 );
 
-$router->RouteRequest();
+try
+{
+	$router->RouteRequest();
+}
+catch (RouterException $e)
+{
+	http_status_code(404);
+	die("404 Not Found. Click <a href='/'>here</a> to continue to todo.cryto.net, the todo list for overworked hackers (and everyone else).");
+}
