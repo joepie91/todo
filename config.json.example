@@ -1,0 +1,31 @@
+{
+	"database": {
+		"driver": "mysql",
+		"hostname": "localhost",
+		"username": "root",
+		"password": "",
+		"database": "todo"
+	},
+	"locale": {
+		"path": 		"locales",
+		"extension":		"lng",
+		"default_locale": 	"english",
+		"default_timezone": 	"Europe/Amsterdam"
+	},
+	"memcache": {
+		"enabled": 	true,
+		"compressed": 	true,
+		"hostname": 	"localhost",
+		"port": 	11211
+	},
+	"class_map": {
+		"user": "User",
+		"item": "Item"
+	},
+	"components": [
+		"router",
+		"errorhandler"
+	],
+	"autoloader": true,
+	"salt": "abcdef"
+}

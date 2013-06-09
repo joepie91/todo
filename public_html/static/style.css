@@ -1,0 +1,165 @@
+.wrapper
+{
+	max-width: 960px;
+	margin: 0px auto;
+}
+
+.stuff
+{
+	padding: 14px 22px;
+}
+
+.header
+{
+	position: relative;
+	background-color: #DEDEDE;
+	color: #8C8C8C;
+	letter-spacing: -.20em;
+}
+
+.header h1
+{
+	margin-bottom: 0px;
+}
+
+.header .dashboard
+{
+	position: absolute;
+	right: 16px;
+	bottom: 20px;
+	letter-spacing: normal;
+}
+
+.header .dashboard a
+{
+	font-size: 95%;
+	margin-left: 8px;
+}
+
+.header .dashboard .register
+{
+	box-shadow: 0px 0px 6px 1px #f5cb70;
+-webkit-box-shadow: 0px 0px 6px 1px #f5cb70;
+-moz-box-shadow: 0px 0px 6px 1px #f5cb70;
+-o-box-shadow: 0px 0px 6px 1px #f5cb70;
+-ms-box-shadow: 0px 0px 6px 1px #f5cb70;
+}
+
+.current
+{
+	background-color: #E7E7E7;
+}
+
+.current h2
+{
+	color: #5E5E5E;
+}
+
+.current-task
+{
+	color: black;
+	margin-left: 8px;
+}
+
+ul.tasks
+{
+	padding: 0px;
+}
+
+ul.tasks li
+{
+	list-style-type: none;
+	margin-bottom: 5px;
+}
+
+ul.tasks li.create
+{
+	margin-bottom: 10px;
+}
+
+ul.tasks .task .type, select.type-input, button.add-button, input.description-input, .type-marker
+{
+	float: left;
+	border-radius: 3px;
+	padding: 3px 4px;
+	font-size: 60%;
+	font-weight: 700;
+	margin-right: 6px;
+	text-transform: uppercase;
+	text-align: center;
+	width: 41px;
+}
+
+.type-marker
+{
+	font-size: 75%;
+	padding: 3px 15px;
+	float: none;
+	margin-right: 8px;
+	margin-left: 5px;
+	position: relative;
+	top: -2px;
+}
+
+select.type-input, button.add-button, input.description-input
+{
+	float: none;
+}
+
+select.type-input
+{
+	width: 64px;
+}
+
+button.add-button
+{
+	width: 72px;
+	padding: 5px 4px;
+}
+
+input.description-input
+{
+	width: 250px;
+	padding: 2px 6px;
+	text-align: left;
+	text-transform: none;
+	font-size: 80%;
+	font-weight: normal;
+	margin-top: 1px;
+	position: relative;
+	top: 1px;
+}
+
+ul.tasks .task .type.want, .type-marker.want
+{
+	background-color: #CCE6B6;
+}
+
+ul.tasks .task .type.must, .type-marker.must
+{
+	background-color: #E8CDBA;
+}
+
+.non-button
+{
+	color: #8E8E8E;
+	margin-left: 12px;
+	font-weight: bold;
+}
+
+.inline-form
+{
+	display: inline;
+}
+
+.modal
+{
+	display: none;
+	width: 400px;
+	color: #2F2F2F;
+}
+
+/* From HTML Kickstart */
+.clear{clear:both;display:block;overflow:hidden;visibility:hidden;width:0;height:0}
+.clearfix:after{clear:both;content:' ';display:block;font-size:0;line-height:0;visibility:hidden;width:0;height:0}
+* html .clearfix, *:first-child+html .clearfix{zoom:1}
