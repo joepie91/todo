@@ -122,7 +122,7 @@ class User extends CPHPDatabaseRecordClass
 	
 	public static function FindByUsername($username)
 	{
-		return self::CreateFromQuery("SELECT * FROM users WHERE `Username` = :Username", array(':Username' => $username), 0, true);
+		return self::CreateFromQuery("SELECT * FROM users WHERE `Username` = :Username AND `Guest` = 0", array(':Username' => $username), 0, true);
 	}
 	
 	public function MarkCurrentItemDone()
