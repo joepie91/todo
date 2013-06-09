@@ -11,6 +11,4 @@
  * licensing text.
  */
 
-if(!isset($_APP)) { die("Unauthorized."); }
-
 require("rewrite.php");
