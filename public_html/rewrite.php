@@ -20,6 +20,7 @@ $router->allow_slash = true;
 
 $router->routes = array(
 	0 => array(
+		"^/$" => "modules/home.php",
 		"^/list$" => "modules/list.php",
 		"^/register$" => "modules/register.php",
 		"^/login$" => "modules/login.php",
