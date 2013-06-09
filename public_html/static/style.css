@@ -159,6 +159,16 @@ ul.tasks .task .type.must, .type-marker.must
 	color: #2F2F2F;
 }
 
+.no-header
+{
+	padding-top: 27px;
+}
+
+.sidebar
+{
+	font-size: 14px;
+}
+
 /* From HTML Kickstart */
 .clear{clear:both;display:block;overflow:hidden;visibility:hidden;width:0;height:0}
 .clearfix:after{clear:both;content:' ';display:block;font-size:0;line-height:0;visibility:hidden;width:0;height:0}

@@ -56,7 +56,7 @@
 				</div>
 			</div>
 			
-			<div class="pure-u-1">
+			<div class="pure-u-5-8">
 				<div class="stuff">
 					<h2>Your other tasks...</h2>
 					<ul class="tasks">
@@ -84,6 +84,46 @@
 							{%/foreach}
 						{%/if}
 					</ul>
+				</div>
+			</div>
+			<div class="pure-u-3-8">
+				<div class="stuff no-header sidebar">
+					<p>
+						<strong>Confused?</strong> Don't be! It's quite simple.
+					</p>
+					<p>
+						Add a new task with the form on your left. If it's something you <em>have</em> to do - for example,
+						a chore or some kind of work - select the <strong>MUST</strong> type. 
+					</p>
+					<p>
+						If it's something you <em>want</em> to do - say, a hobby project or generally something non-urgent 
+						that you want to do soon - select the <strong>WANT</strong> type.
+					</p>
+					<p>
+						The app will assign you a new task every time you finish one. To balance between work and play, it'll
+						alternate between <strong>MUST</strong> and <strong>WANT</strong> tasks. 
+					</p>
+					<p>
+						If you get a <strong>WANT</strong> assignment and you don't like it, you can swap it for another random 
+						one - but you can't skip the <strong>MUST</strong> assignments!
+					</p>
+					<p>
+						<strong>Questions?</strong> E-mail me at <a href="mailto:todo@cryto.net">todo@cryto.net</a> or add me on 
+						XMPP: joepie91@neko.im.
+					</p>
+					<p>
+						<strong>Donations are very much appreciated.</strong> This is a free service, without ads, data mining,
+						or any other kind of forced 'monetization'. As I only write open-source code, my income is very limited 
+						and even small voluntary donations are tremendously helpful.
+					</p>
+					<p>
+						You can <a href="http://cryto.net/~joepie91/donate.html">make a voluntary donation</a> via Bitcoin, PayPal 
+						or Flattr. You can also <a href="http://cryto.net/~joepie91">click to learn more</a> about what kind of 
+						things I work on.
+					</p>
+					<p>
+						The source code can be found <a href="http://github.com/joepie91/todo">here</a>.
+					</p>
 				</div>
 			</div>
 		</div>
