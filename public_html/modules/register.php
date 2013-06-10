@@ -15,6 +15,16 @@ if(!isset($_APP)) { die("Unauthorized."); }
 
 if(!empty($_POST['username']) && !empty($_POST['password']) && !empty($_POST['password2']))
 {
+	try
+	{
+		$sUser = User::FindByUsername($_POST['username']);
+		die("Username already taken.");
+	}
+	catch (NotFoundException $e)
+	{
+		/* pass */
+	}
+	
 	if(strlen($_POST['username']) > 48)
 	{
 		die("Username too long.");
