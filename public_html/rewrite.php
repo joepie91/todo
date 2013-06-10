@@ -14,6 +14,18 @@
 $_APP = true;
 require("includes/base.php");
 
+if(strtolower($_SERVER["REQUEST_METHOD"]) == "post")
+{
+	try
+	{
+		CSRF::VerifyToken();
+	}
+	catch (CsrfException $e)
+	{
+		die();
+	}
+}
+
 $router = new CPHPRouter();
 $router->ignore_query = true;
 $router->allow_slash = true;
