@@ -105,7 +105,12 @@
 					</p>
 					<p>
 						If you get a <strong>WANT</strong> assignment and you don't like it, you can swap it for another random 
-						one - but you can't skip the <strong>MUST</strong> assignments!
+						<strong>WANT</strong> assignment - but you can't skip the <strong>MUST</strong> assignments!
+					</p>
+					<p>
+						If you decide to swap out your <strong>WANT</strong> assignment for another one, you'll always get another
+						<strong>WANT</strong> assignment and <em>not</em> a <strong>MUST</strong> assignment - that would throw off
+						the balance.
 					</p>
 					<p>
 						<strong>Questions?</strong> E-mail me at <a href="mailto:todo@cryto.net">todo@cryto.net</a> or add me on 
