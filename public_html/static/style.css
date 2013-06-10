@@ -169,6 +169,13 @@ ul.tasks .task .type.must, .type-marker.must
 	font-size: 14px;
 }
 
+.tldr
+{
+	border: 1px solid gray;
+	background-color: #E8E8E8;
+	padding: 12px 16px;
+}
+
 /* From HTML Kickstart */
 .clear{clear:both;display:block;overflow:hidden;visibility:hidden;width:0;height:0}
 .clearfix:after{clear:both;content:' ';display:block;font-size:0;line-height:0;visibility:hidden;width:0;height:0}

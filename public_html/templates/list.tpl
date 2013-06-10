@@ -109,7 +109,8 @@
 					</p>
 					<p>
 						<strong>Questions?</strong> E-mail me at <a href="mailto:todo@cryto.net">todo@cryto.net</a> or add me on 
-						XMPP: joepie91@neko.im.
+						XMPP: joepie91@neko.im. You can also talk to me (and others!) on IRC: <a href="irc://irc.cryto.net/crytocc">
+						#crytocc on irc.cryto.net</a>.
 					</p>
 					<p>
 						<strong>Donations are very much appreciated.</strong> This is a free service, without ads, data mining,
