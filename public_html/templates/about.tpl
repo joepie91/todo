@@ -35,7 +35,7 @@
 					</p>
 					<ol>
 						<li>
-							<strong>The 'I have so much to do, where do I start' problem.</strong> When your to-do list starts growing, you'll inevitable end
+							<strong>The 'I have so much to do, where do I start' problem.</strong> When your to-do list starts growing, you'll inevitably end
 							up in a state where you have so many things in your list, that it seems impossible to even start on it. This leads to inability to
 							choose a task to work on, which in turn leads to procrastination, which in turn makes the problem even bigger. <em>todo.</em> solves
 							this by selecting a task for you to work on - one that, if it is something work-related, cannot be skipped until it's done.
@@ -77,7 +77,7 @@
 						<li>Memcache</li>
 						<li><a href="http://purecss.io/">Pure CSS</a></li>
 						<li>Some code from <a href="http://www.99lime.com/elements/">HTML Kickstart</a></li>
-						<li><a href="http://fancyapps.net/">fancyBox 2</a></li>
+						<li><a href="http://fancyapps.com/">fancyBox 2</a></li>
 					</ul>
 					<p>
 						Now the question that quite some people will inevitably ask: how do I keep this running? I accept <a href="http://cryto.net/~joepie91/donate.html">
