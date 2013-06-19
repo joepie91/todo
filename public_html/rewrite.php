@@ -22,7 +22,7 @@ if(strtolower($_SERVER["REQUEST_METHOD"]) == "post")
 	}
 	catch (CsrfException $e)
 	{
-		die();
+		die("Invalid CSRF token. Perhaps your session has expired? <a href='/'>Click here</a> to log in again.");
 	}
 }
 
